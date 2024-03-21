@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BigOne Mall
 
-## Getting Started
+<br />
 
-First, run the development server:
+1. [프로젝트 소개 🚀](#1-프로젝트-소개-)
+2. [화면 구성 📺](#2-화면-구성-)
+3. [API 🚀](#3-API-)
+4. [기술 스택 🛠](#4-기술-스택-)
+5. [구현 기능 📍](#5-구현-기능-)
+6. [프로젝트 구조 🗂](#6-프로젝트-구조-)
+7. [배포 ✨](#7-배포-)
+
+<br/>
+
+
+
+
+<br />
+
+## 1. 프로젝트 소개 🚀
+
+- 개요 : 필요한 모든 것들을 구할 수 있습니다.
+- 주제 : 필요한 모든 상품들이 등록되어있고 손쉽게 구할 수 있습니다.
+- 기간 : 2024.03.22 ~ ing
+
+<br />
+
+## 2. 화면 구성 📺
+- 메인
+    - [ ] 모든 상품 미리보기
+- 계정
+  - 로그인
+      - [ ] 로그인(email & password)
+      - [ ] 소셜 로그인
+  - 회원가입
+      - [ ] 회원가입
+- 상품
+    - [ ] 상세 페이지
+    - [ ] 검색 
+    - [ ] 구입
+    - [ ] 결제
+- 개인
+    - [ ] 개인정보 설정(비밀번호, 닉네임, 프로필)
+    - [ ] 장바구니
+    - [ ] 최근 본 상품
+
+<br />
+
+## 3. API 🚀
+
+
+## 4. 기술 스택 🛠
+- React.js (v18)
+- Next.js (v14.1)
+- Auth.js (v5)
+- Tanstack Query(v5)
+
+<br />
+
+## 5. 구현 기능 📍
+
+
+<br />
+
+## 6. 프로젝트 구조 🗂
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src
+├── app 
+    ├── (afterLogin)
+    │     ├── _component
+    │     ├── folderName
+    │     │     ├── _component
+    ├── (beforeLogin)
+  
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br/>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## 7. 배포 ✨
 
-To learn more about Next.js, take a look at the following resources:
+<br/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
